@@ -6,9 +6,11 @@ Cosine distance is equal to 1 – cosine similarity, Where cosine similarity = (
 
 2)Compared to the ARI outputs for k = 5 and 10, k = 4 shows more negative ARIs (more smaller), especially for Euclidean distance. 
 Smaller values of k make it easier to find matches of the k-mer between sequences.
+
 There is a possibility that as we increase the value of k, the clustering tends to show exaggerated differences between the sequences. 
 Euclidean distance is the square root of the square of the difference between the positions of two points in space. Euclidean distance is very sensitive to magnitude, especially very large changes in magnitude. When we consider frequency instead of raw counts, the magnitude changes (as genome length bias is accounted for). When the length of our sequences vary a lot, this effect is more visible. 
 For example, human mitochondria genome sequence is 16569 bases long and the saccharomyces genome sequence is 12077893 bases long. For k = 4, In the dendrogram Euclidean distance with complete linkage, frequency counts, human mitochondria is more closely “clustered” to saccharomyces when compared to the same clustering metrics but using raw counts of k-mer appearances. 
 
 3)In the case of Euclidean distance, among all the linkages, complete linkage was the exact same dendrogram as that of average linkage, but with larger and more exaggerated differences. This was observed in both raw counts and frequency counts based dendrograms.
+
 In complete linkage, among all the distances between two groups of points, the largest distance that was seen between a point and its counterpart in the other cluster is considered. However, in average linkage (also called as UPGMA), the average of all the distances between the group of points. Among the three types of linkages, average distance is considered to be the most stable and which can properly represent the differences between two clusters. Complete distance often tends to exaggerate the linkages between the clusters by searching for the largest distance, while single linkages form the “chaining effect”, by making clusters closer than they seem. Both these cases could be a one off random case which tends to be considered, for evaluvation and thus creating “false positives”.  
