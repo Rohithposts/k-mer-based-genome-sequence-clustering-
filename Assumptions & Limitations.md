@@ -1,4 +1,5 @@
 Assumptions and Limitations:
+
 This analysis cannot give any biological or evolutionary interpretation that is statistically significant. A significantly larger number of genomes would be required for that. The aim of this particular analysis is to try and understand how genome data comparison metrics and data preprocessing largely affect outputs.	
 All the sequences used in this analysis were downloaded from NCBI. Therefore, an assumption that there will be no form of “batch effects” was taken given that all the genome sequences are from one source. However, there is a possibility of such “batch effects” occurring.
 As GC content is a very important biological metric for a sequence, in this analysis “GC Bias” was not accounted for.
