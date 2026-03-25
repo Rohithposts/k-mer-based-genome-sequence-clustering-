@@ -1,0 +1,39 @@
+Given below are all the various ARI values that were calculated between dendrograms formed from raw counts and frequency counts under various combinations of linkage and distance metrics.
+As mentioned earlier, ARI gives us an idea about how well two dendrograms "agree" with each other. It is NOT a measurement that tells us if a dendrogram is "correct".
+The reason why it was chosen for this project is to illustarte how drasticslly the output dendrograms are changing when we change from raw counts to frequency counts. 
+
+distance: linkage: k: ARI:             
+euclidean average k=4 -0.17
+euclidean complete k=4 -0.17
+euclidean single k=4 -0.15
+cityblock average k=4 -0.15
+cityblock complete k=4 -0.17
+cityblock single k=4 -0.15
+cosine average k=4 1.0
+cosine complete k=4 1.0
+cosine single k=4 1.0
+
+
+
+distance: linkage: k: ARI:
+euclidean average k=5 -0.15
+euclidean complete k=5 -0.15
+euclidean single k=5 -0.14
+cityblock average k=5 -0.17
+cityblock complete k=5 -0.17
+cityblock single k=5 -0.14
+cosine average k=5 1.0
+cosine complete k=5 1.0
+cosine single k=5 1.0
+
+
+distance: linkage: k: ARI:
+euclidean average k=10 -0.14
+euclidean complete k=10 -0.14
+euclidean single k=10 -0.14
+cityblock average k=10 -0.14
+cityblock complete k=10 -0.14
+cityblock single k=10 -0.14
+cosine average k=10 1.0
+cosine complete k=10 1.0
+cosine single k=10 1.0
