@@ -1,6 +1,6 @@
 Given below are all the various ARI values that were calculated between dendrograms formed from raw counts and frequency counts under various combinations of linkage and distance metrics.
 As mentioned earlier, ARI gives us an idea about how well two dendrograms "agree" with each other. It is NOT a measurement that tells us if a dendrogram is "correct".
-The reason why it was chosen for this project is to illustarte how drasticslly the output dendrograms are changing when we change from raw counts to frequency counts. 
+The reason why it was chosen for this project is to illustrate how drastically the output dendrograms are changing when we change from raw counts to frequency counts. 
 
 distance: linkage: k: ARI:             distance: linkage: k: ARI:             distance: linkage: k: ARI:
 euclidean average k=4 -0.17            euclidean average k=5 -0.15            euclidean average k=10 -0.14
