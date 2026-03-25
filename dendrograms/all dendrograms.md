@@ -1,0 +1,1 @@
+During the course of this analysis, over 54 dendrograms were generated. If there is an interest gto view these dendrograms, then they can be accessed here. They are organised into folders base don the values of k and type of count (frequency/raw counts).
