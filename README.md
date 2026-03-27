@@ -7,7 +7,7 @@ If we carry out k-mer based similarity sequencing using simply raw counts of k-m
 
 In this project, using quantitative metrics like ARI (adjusted rank index), i try to analyse the changes in output clustering when using raw counts and frequency counts (occurences of a k-mer relative to the length of the sequence).
 
-ARI or adjusted rank index gives a quantitative metric that helps us undertsand how well two dendrograms agree with each other. ARI ranges from 1 to -1. If ARI is 1.0, it means that the two dendrograms "agree" with each other, and there is no "random" clustering.  ARI values below 0 are worse than "random" clustering and both the dendrograms are "opposite". In python it can be calculated using libraries like sklearn. 
+ARI or adjusted rand index gives a quantitative metric that helps us undertsand how well two dendrograms agree with each other. ARI ranges from 1 to -1. If ARI is 1.0, it means that the two dendrograms "agree" with each other, and there is no "random" clustering.  ARI values below 0 are worse than "random" clustering and both the dendrograms are "opposite". In python it can be calculated using libraries like sklearn. 
 
 The three various distance metrics that are calculated during clustering are cosine, euclidean and manhattan. 
 
