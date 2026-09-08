@@ -18,14 +18,14 @@ def read_file(file_path):
                 seq.append(line)
     return "".join(seq)
 
-seq1 = read_file("D:/project/human_mitochondria_ncbi_NC_012920.1.fasta")
-seq2 = read_file("D:/project/E coli str. K-12 substr. MG1655 U00096.2.fasta")
-seq3 = read_file("D:/project/mycoplasma_pnuemoniae_M129_U00089.2_NCBI.fasta")
-seq4 = read_file("D:/project/sacchromyces cerevasiea CEN.PK113-7D.fna")
-seq5 = read_file("D:/project/ecoliO157H7 .fna")
-seq6 = read_file("D:/project/propinoiibacterium freudenreichii CIRM-BA1.fna")
-seq7 = read_file("D:/project/nostoc_sp_PCC 7120.fna")
-seq8 = read_file("D:/project/azatobacter_vinelandii_CA.fna")
+seq1 = read_file("DNA_Sequences/human_mitochondria_ncbi_NC_012920.1.fasta")
+seq2 = read_file("DNA_Sequences/E coli str. K-12 substr. MG1655 U00096.2.fasta")
+seq3 = read_file("DNA_Sequences/mycoplasma_pnuemoniae_M129_U00089.2_NCBI.fasta")
+seq4 = read_file("DNA_Sequences/sacchromyces cerevasiea CEN.PK113-7D.fna")
+seq5 = read_file("DNA_Sequences/ecoliO157H7 .fna")
+seq6 = read_file("DNA_Sequences/propinoiibacterium freudenreichii CIRM-BA1.fna")
+seq7 = read_file("DNA_Sequences/nostoc_sp_PCC 7120.fna")
+seq8 = read_file("DNA_Sequences/azatobacter_vinelandii_CA.fna")
 
 sequences = [seq1, seq2, seq3, seq4, seq5, seq6, seq7, seq8]
 
